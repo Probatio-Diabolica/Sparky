@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Bgm",
+      "request": "launch",
+      "mainClass": "Sparky/com.SPARKY.sparky.Audio.Bgm",
+      "projectName": "Sparky"
+    },
+    {
+      "type": "java",
+      "name": "Client",
+      "request": "launch",
+      "mainClass": "chatlee.Client",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "MAIN",
+      "request": "launch",
+      "mainClass": "Sparky/com.SPARKY.sparky.MAIN",
+      "projectName": "Sparky"
+    },
+    {
+      "type": "java",
+      "name": "Attach",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "<debug port of the debuggee>"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/hp/Downloads/Raylib-CPP-Starter-Template-for-VSCODE-main/Raylib-CPP-Starter-Template-for-VSCODE-main",
+      "program": "c:/Users/hp/Downloads/Raylib-CPP-Starter-Template-for-VSCODE-main/Raylib-CPP-Starter-Template-for-VSCODE-main/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
