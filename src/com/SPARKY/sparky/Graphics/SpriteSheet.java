@@ -15,7 +15,7 @@ public class SpriteSheet {
     public static SpriteSheet primitiveTile = new SpriteSheet("Resources/Textures/SpriteDemo.png",256);
     public static SpriteSheet Grassland = new SpriteSheet("Resources/Textures/Nature/Grassland.png",256);
     public static SpriteSheet bullet = new SpriteSheet("Resources/Textures/Bullets/bullet.png",48);
-    public static SpriteSheet PlayerTest= new SpriteSheet("Resources/Textures/Teste.png", 192);
+    public static SpriteSheet Player= new SpriteSheet("Resources/Textures/PlayerSprite.png", 256);
 
     // -> removing bc it's redundant
     //public static SpriteSheet bulletB = new SpriteSheet("Resources/Textures/Bullets/bullet.png",48);

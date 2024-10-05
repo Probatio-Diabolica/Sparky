@@ -45,28 +45,45 @@ public class Sprite {
 //	public static Sprite player2=new Sprite(16,0,11,SpriteSheet.tile);
 //	public static Sprite player3=new Sprite(16,1,11,SpriteSheet.tile);
 	
-	//player going up
-	// public static Sprite playerUP_stand=new Sprite(32,0,5,SpriteSheet.primitiveTile);
-	// public static Sprite playerUPOne=new Sprite(32,0,6,SpriteSheet.primitiveTile);
-	// public static Sprite playerUPTwo=new Sprite(32,0,7,SpriteSheet.primitiveTile);
-	public static Sprite playerUP_stand=new Sprite(32,0,1,SpriteSheet.PlayerTest);
-	public static Sprite playerUPOne=new Sprite(32,1,1,SpriteSheet.PlayerTest);
-	public static Sprite playerUPTwo=new Sprite(32,2,1,SpriteSheet.PlayerTest);
+
+	public static Sprite playerUP0		  =	new Sprite(32,0,1,SpriteSheet.Player);
+	public static Sprite playerUP1		  =	new Sprite(32,1,1,SpriteSheet.Player);
+	public static Sprite playerUP2		  =	new Sprite(32,2,1,SpriteSheet.Player);
+	public static Sprite playerUP3		  =	new Sprite(32,3,1,SpriteSheet.Player);
+	public static Sprite playerUP4		  =	new Sprite(32,4,1,SpriteSheet.Player);
+	public static Sprite playerUP5		  =	new Sprite(32,5,1,SpriteSheet.Player);
+	public static Sprite playerUP6		  =	new Sprite(32,6,1,SpriteSheet.Player);
+	public static Sprite playerUP7		  =	new Sprite(32,7,1,SpriteSheet.Player);
 	
 	//player going DOWN
-	public static Sprite playerDOWN_stand =new Sprite(32,0,0,SpriteSheet.PlayerTest);
-	public static Sprite playerDOWNOne	  =new Sprite(32,1,0,SpriteSheet.PlayerTest);
-	public static Sprite playerDOWNTwo	  =new Sprite(32,2,0,SpriteSheet.PlayerTest);
+	public static Sprite playerDOWN0 	  =	new Sprite(32,0,0,SpriteSheet.Player);
+	public static Sprite playerDOWN1	  =	new Sprite(32,1,0,SpriteSheet.Player);
+	public static Sprite playerDOWN2	  =	new Sprite(32,2,0,SpriteSheet.Player);
+	public static Sprite playerDOWN3	  =	new Sprite(32,3,0,SpriteSheet.Player);
+	public static Sprite playerDOWN4	  =	new Sprite(32,4,0,SpriteSheet.Player);
+	public static Sprite playerDOWN5	  =	new Sprite(32,5,0,SpriteSheet.Player);
+	public static Sprite playerDOWN6	  =	new Sprite(32,6,0,SpriteSheet.Player);
+	public static Sprite playerDOWN7	  =	new Sprite(32,7,0,SpriteSheet.Player);
 	
 	//player going LEFT
-	public static Sprite playerLeft	  =	new Sprite(32,0,2,SpriteSheet.PlayerTest);
-	public static Sprite playerLeftOne=	new Sprite(32,1,2,SpriteSheet.PlayerTest);
-	public static Sprite playerLeftTwo=	new Sprite(32,2,2,SpriteSheet.PlayerTest);
+	public static Sprite playerLeft0	  = new Sprite(32,0,2,SpriteSheet.Player);
+	public static Sprite playerLeft1	  = new Sprite(32,1,2,SpriteSheet.Player);
+	public static Sprite playerLeft2	  = new Sprite(32,2,2,SpriteSheet.Player);
+	public static Sprite playerLeft3	  = new Sprite(32,3,2,SpriteSheet.Player);
+	public static Sprite playerLeft4	  = new Sprite(32,4,2,SpriteSheet.Player);
+	public static Sprite playerLeft5	  = new Sprite(32,5,2,SpriteSheet.Player);
+	public static Sprite playerLeft6	  = new Sprite(32,6,2,SpriteSheet.Player);
+	public static Sprite playerLeft7	  = new Sprite(32,7,2,SpriteSheet.Player);
 	
 	//player going right
-	public static Sprite playerRight	= new Sprite(32,0,3,SpriteSheet.PlayerTest);
-	public static Sprite playerRightOne = new Sprite(32,1,3,SpriteSheet.PlayerTest);
-	public static Sprite playerRightTwo = new Sprite(32,2,3,SpriteSheet.PlayerTest);
+	public static Sprite playerRight0	  = new Sprite(32,0,3,SpriteSheet.Player);
+	public static Sprite playerRight1	  = new Sprite(32,1,3,SpriteSheet.Player);
+	public static Sprite playerRight2	  = new Sprite(32,2,3,SpriteSheet.Player);
+	public static Sprite playerRight3	  = new Sprite(32,3,3,SpriteSheet.Player);
+	public static Sprite playerRight4	  = new Sprite(32,4,3,SpriteSheet.Player);
+	public static Sprite playerRight5	  = new Sprite(32,5,3,SpriteSheet.Player);
+	public static Sprite playerRight6	  = new Sprite(32,6,3,SpriteSheet.Player);
+	public static Sprite playerRight7	  = new Sprite(32,7,3,SpriteSheet.Player);
 	
 //Bullets
 	public static Sprite normalBull=new Sprite(16,0,0,SpriteSheet.bullet);

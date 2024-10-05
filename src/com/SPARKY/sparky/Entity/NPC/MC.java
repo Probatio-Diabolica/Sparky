@@ -30,47 +30,56 @@ public class MC extends mob {
 		this.input=input;
 	}
 	
+	// will fix it later
 	public void render(Screen screen) {
 		if(dir=="NORTH"){
-			sprite=Sprite.playerUP_stand;
+			sprite=Sprite.playerUP0;
 			if(movement) {
-				if(anim%20>10) {
-					sprite=Sprite.playerUPOne;
-					sprite=Sprite.playerUPTwo;
-				}else {
+				if(anim%20>10 && anim%20<15) {
+					sprite=Sprite.playerUP1;
+					sprite=Sprite.playerUP2;
+					sprite=Sprite.playerUP3;
+				}else if (anim%20==15){
+					
+					sprite=Sprite.playerUP4;
+				}else
+				{
+					sprite=Sprite.playerUP5;
+					sprite=Sprite.playerUP6;
+					sprite=Sprite.playerUP7;
 				}
 			}
 		}
 		if(dir=="SOUTH" || dir == "LookinAtYou"){
-			sprite=Sprite.playerDOWN_stand;
+			sprite=Sprite.playerDOWN0;
 			if(movement) {
 				if(anim%20>10) {
-					sprite=Sprite.playerDOWNOne;
+					sprite=Sprite.playerDOWN1;
 				}else {
-					sprite=Sprite.playerDOWNTwo;
+					sprite=Sprite.playerDOWN2;
 				}
 				
 			}
 			
 		}
 		if(dir=="EAST"){
-			sprite=Sprite.playerRight;
+			sprite=Sprite.playerRight0;
 			if(movement) {
 				if(anim%20>10) {
-					sprite=Sprite.playerRightOne;
+					sprite=Sprite.playerRight1;
 				}else {
-					sprite=Sprite.playerRightTwo;
+					sprite=Sprite.playerRight2;
 				}
 			}
 
 		}
 		if(dir=="WEST"){
-			sprite=Sprite.playerLeft;
+			sprite=Sprite.playerLeft0;
 			if(movement) {
 				if(anim%20>10) {
-					sprite=Sprite.playerLeftOne;
+					sprite=Sprite.playerLeft1;
 				}else {
-					sprite=Sprite.playerLeftTwo;
+					sprite=Sprite.playerLeft2;
 				}
 			}
 
