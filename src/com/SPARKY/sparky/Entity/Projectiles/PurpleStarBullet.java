@@ -12,7 +12,7 @@ public class PurpleStarBullet extends Projectile{
 		super(x, y, dir);
 		damage=200;
 		range=MAIN.getGameWidth()/2;//random.nextInt(50)+50;
-		speed=spd*4;
+		speed=spd*10;
 		nx=speed*Math.cos(angle);
 		ny=speed*Math.sin(angle);
 		
