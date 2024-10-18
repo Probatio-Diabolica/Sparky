@@ -32,32 +32,30 @@ public class MC extends mob {
 	
 	// will fix it later
 	public void render(Screen screen) {
+		int move=anim%35;
 		if(dir=="NORTH"){
 			sprite=Sprite.playerUP0;
 			if(movement) {
-				if(anim%20>10 && anim%20<15) {
-					sprite=Sprite.playerUP1;
-					sprite=Sprite.playerUP2;
-					sprite=Sprite.playerUP3;
-				}else if (anim%20==15){
-					
-					sprite=Sprite.playerUP4;
-				}else
-				{
-					sprite=Sprite.playerUP5;
-					sprite=Sprite.playerUP6;
-					sprite=Sprite.playerUP7;
-				}
+				if(move<5) sprite=Sprite.playerUP1;
+				else if(move<10) sprite=Sprite.playerUP2;
+				else if(move<15) sprite =Sprite.playerUP3;
+				else if(move<20) sprite =Sprite.playerUP4;
+				else if(move<25) sprite =Sprite.playerUP5;
+				else if(move<30) sprite =Sprite.playerUP6;
+				else if(move<35) sprite =Sprite.playerUP7;
+				
 			}
 		}
 		if(dir=="SOUTH" || dir == "LookinAtYou"){
 			sprite=Sprite.playerDOWN0;
 			if(movement) {
-				if(anim%20>10) {
-					sprite=Sprite.playerDOWN1;
-				}else {
-					sprite=Sprite.playerDOWN2;
-				}
+				if(move<5) sprite=Sprite.playerDOWN1;
+				else if(move<10) sprite=Sprite.playerDOWN2;
+				else if(move<15) sprite =Sprite.playerDOWN3;
+				else if(move<20) sprite =Sprite.playerDOWN4;
+				else if(move<25) sprite =Sprite.playerDOWN5;
+				else if(move<30) sprite =Sprite.playerDOWN6;
+				else if(move<35) sprite =Sprite.playerDOWN7;
 				
 			}
 			
@@ -65,22 +63,26 @@ public class MC extends mob {
 		if(dir=="EAST"){
 			sprite=Sprite.playerRight0;
 			if(movement) {
-				if(anim%20>10) {
-					sprite=Sprite.playerRight1;
-				}else {
-					sprite=Sprite.playerRight2;
-				}
+				if(move<5) sprite=Sprite.playerRight1;
+				else if(move<10) sprite=Sprite.playerRight2;
+				else if(move<15) sprite =Sprite.playerRight3;
+				else if(move<20) sprite =Sprite.playerRight4;
+				else if(move<25) sprite =Sprite.playerRight5;
+				else if(move<30) sprite =Sprite.playerRight6;
+				else if(move<35) sprite =Sprite.playerRight7;
 			}
 
 		}
 		if(dir=="WEST"){
 			sprite=Sprite.playerLeft0;
 			if(movement) {
-				if(anim%20>10) {
-					sprite=Sprite.playerLeft1;
-				}else {
-					sprite=Sprite.playerLeft2;
-				}
+				if(move<5) sprite=Sprite.playerLeft1;
+				else if(move<10) sprite=Sprite.playerLeft2;
+				else if(move<15) sprite =Sprite.playerLeft3;
+				else if(move<20) sprite =Sprite.playerLeft4;
+				else if(move<25) sprite =Sprite.playerLeft5;
+				else if(move<30) sprite =Sprite.playerLeft6;
+				else if(move<35) sprite =Sprite.playerLeft7;
 			}
 
 		}
